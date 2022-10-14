@@ -21,6 +21,10 @@
     padding-left: 4%;
 }
 
+.btn-1 p {
+    
+}
+
 .btn-1 h1 {
     color: purple;
 }
@@ -28,7 +32,8 @@
 .btn-2 {
     float: left;
     width: 31%;
-    background-color: rgb(240, 186, 86);       
+    background-color: rgb(240, 186, 86);
+    height: 180px;    
 }
 
 .btn-2 h1 {
