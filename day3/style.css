@@ -1,0 +1,101 @@
+:root {
+    --text-color: rgba(160, 155, 150, 0.377);
+}
+
+* { 
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.total {
+    margin: 10px;
+    
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.title p {
+    margin-bottom: 5px;
+}
+
+.title span {
+    background-color: black;
+    color: aliceblue;
+}
+
+.heading {
+    float: left;
+    width: 65%;
+    margin-top: 20px;
+    border: 1px solid gray
+}
+
+.heading img {
+    width: 100%;
+}
+
+.head {
+    margin: 30px;
+}
+
+.head span {
+    color: var(--text-color)
+}
+
+.read p {
+    float: left;
+    font-size: 16px;
+    margin: 20px 20px 1px 40px;
+    padding-top: 10px;   
+}
+
+.read p:hover {
+    cursor: pointer;    
+}
+
+.cmt p {
+    float: right;    
+    margin: 20px 100px 20px;
+}
+
+.cmt span {
+    background-color: black;
+    color: aliceblue;
+}
+
+.info {
+    float: right;
+    width: 33%;    
+    margin-top: 20px;
+    border: 1px solid gray
+}
+
+.info img {
+    width: 100%;
+    height: 320px;
+}
+
+.name {
+    margin: 10px;
+}
+.name span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.name p {
+    margin-top: 0;
+}
+
+.popular {
+    float: right;
+    width: 33%;    
+    margin-top: 20px;
+    border: 1px solid gray
+}
+.post {
+    background-color: rgb(158, 150, 150);
+}
