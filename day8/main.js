@@ -36,7 +36,7 @@ console.log(salary/people.length);
 
 // 2) Who are the people that are currently older than 30?
 const Ages = people.filter((item) =>  item.Age > 30);
-console.log(Ages);
+console.log(Ages.map(element => element.firstName + " " + element.lastName));
 
 // 3) Get a list of the people's full name (firstName and lastName).
 const Name = people.map((item) =>  item.firstName + " " + item.lastName);
@@ -44,7 +44,7 @@ console.log(Name);
 
 // 4) Get a list of people in the array ordered from youngest to oldest.
 const DOBs = people.sort((item1, item2) =>  item1.Age - item2.Age);
-console.log(DOBs);
+console.log(DOBs.map(element => element.firstName + " " + element.lastName));
 
 // 5) How many people are there in each department?
 const Development = people.filter((item) =>  item.department === 'Development').length;
@@ -58,5 +58,3 @@ console.log(Sales);
 
 const OfficeManagement = people.filter((item) =>  item.department === 'Office Management').length;
 console.log(OfficeManagement);
-
-
